@@ -1,0 +1,22 @@
+.responsive-form {
+    margin: 0 5%;
+}
+
+.input-fields {
+    width: 100%;
+}
+
+.input {
+    margin-bottom: 20px;
+    width: 95%;  /* или любое другое значение */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
