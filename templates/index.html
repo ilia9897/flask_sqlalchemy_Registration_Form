@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    {{ form.hidden_tag() }}
+
     <div>
         <h1>Миссия Колонизация Марса</h1>
     </div>
@@ -9,6 +9,7 @@
         <h4>И на Марсе будут яблони цвести!</h4>
     </div>
     <form class="responsive-form" method="post">
+        {{ form.hidden_tag() }}
         <h3 style="margin-bottom: 20px; margin-top: 25px;">Форма регестрации</h3>
         {{ form.email.label }}<br>
         <div class="input-fields">

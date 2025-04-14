@@ -32,7 +32,7 @@ def log():
 def in_db():
     form2 = Form()
 
-    if request.method == 'POST':
+    if form2.validate_on_submit():
         if form2.password.data != form2.password_again.data:
             return render_template('index.html', title='Регистрация',
                                    form=form2,
